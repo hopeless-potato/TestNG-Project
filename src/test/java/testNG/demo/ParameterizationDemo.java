@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class ParameterizationDemo {
 	
 	//adding one line comment to commit into central repo
+	//just a random comment
 	
 	@Test
 	@Parameters({"url", "username", "password"})
