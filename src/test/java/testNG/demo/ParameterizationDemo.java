@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 
 public class ParameterizationDemo {
 	
+	//adding one line comment to commit into central repo
+	
 	@Test
 	@Parameters({"url", "username", "password"})
 	public void method1(String d, String b, String c) {
